@@ -1,4 +1,4 @@
-<img src="humanistica-logo.png" width="200px" align="right"/>
+<img src="humanistica-logo.png" width="200px" style="float: right;"/>
 
 # Modèles pour la conférence Humanistica 2023
 
