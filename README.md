@@ -1,45 +1,23 @@
-# *ACL Paper Styles
+<img src="humanistica-logo.png"/>
 
-This directory contains the latest LaTeX and Word templates for *ACL
-conferences.
+# Modèles pour la conférence Humanistica 2023
 
-## Instructions for authors
+Ce dépôt contient les modèles Word et LaTeX pour la conférence Humanistica. 
 
-Paper submissions to *ACL conferences must use the official ACL style
-templates.
+## Instructions pour les auteurs
 
-The LaTeX style files are available
+Les soumissions d'articles à la conférence Humanistica doivent utiliser les styles contenus dans ce dépôt.
 
-- as an [Overleaf template](https://www.overleaf.com/read/crtcwgxzjskr)
-- in this repository, in the [`latex`](https://github.com/acl-org/acl-style-files/blob/master/latex) subdirectory
-- as a [.zip file](https://github.com/acl-org/acl-style-files/archive/refs/tags/2021-12.zip)
-- as a [.tar.gz file](https://github.com/acl-org/acl-style-files/archive/refs/tags/2021-12.tar.gz).
+Les fichiers de style LaTeX sont disponibles
+- dans ce dépôt, dans le sous-dossier [`latex`](https://github.com/gabays/humanistica-style-files/tree/master/latex)
+- dans un fichier `.zip` [.zip file](https://github.com/gabays/humanistica-style-files/archive/refs/tags/1.0.zip)
 
-Please see [`latex/acl_latex.tex`](https://github.com/acl-org/acl-style-files/blob/master/latex/acl_latex.tex) for an example.
+Pour un exemple: [`latex/humanistica.tex`](https://github.com/gabays/humanistica-style-files/blob/1.0/latex/humanistica.tex).
 
-The Microsoft Word template is available in this repository at [`word/acl.docx`](https://github.com/acl-org/acl-style-files/blob/master/word/acl.docx).
+Le modèle Microsoft Word est disponible dans ce dépôt à l'adresse [`word/acl.docx`](https://github.com/gabays/humanistica-style-files/tree/1.0/word). Vous pouvez le télécharger directement [ici](https://github.com/gabays/humanistica-style-files/raw/1.0/word/humanistica.docx).
 
-Please follow the paper formatting guidelines general to *ACL
-conferences:
+Les auteurs ne peuvent pas modifier ces fichiers de style ou utiliser des modèles conçus pour d'autres conférences.
 
-- [Paper formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html)
+## Crédits
 
-Authors may not modify these style files or use templates designed for
-other conferences.
-
-## Instructions for publications chairs
-
-To adapt the style files for your conference, please fork this repository and
-make necessary changes. Minimally, you'll need to update the name of
-the conference and rename the files.
-
-If you make improvements to the templates that should be propagated to
-future conferences, please submit a pull request. Thank you in
-advance!
-
-In older versions of the templates, authors were asked to fill in the
-START submission ID so that it would be stamped at the top of each
-page of the anonymized version. This is no longer needed, because it
-is now possible to do this stamping automatically within
-START. Currently, the way to do this is for the program chair to email
-support@softconf.com and request it.
+Ces modèles dérivent de ceux des conférences d'[ACL](https://github.com/gabays/acl-style-files).
