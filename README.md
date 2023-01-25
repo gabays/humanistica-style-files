@@ -20,4 +20,4 @@ Les auteurs ne peuvent pas modifier ces fichiers de style ou utiliser des modèl
 
 ## Crédits
 
-Ces modèles dérivent de ceux des conférences d'[ACL](https://github.com/gabays/acl-style-files).
+Ces modèles dérivent de ceux utilisés par les conférences d'[ACL](https://github.com/gabays/acl-style-files).
