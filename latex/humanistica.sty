@@ -30,7 +30,7 @@
 
 
 
-\usepackage{xcolor}	
+\usepackage{xcolor} 
 
 \ifacl@finalcopy
   % Hack to ignore these commands, which review mode puts into the .aux file.
@@ -134,11 +134,11 @@
 \newcommand\outauthor{
     \begin{tabular}[t]{c}
     \ifacl@finalcopy
-	     \bf\@author
-	\else 
-		% Avoiding common accidental de-anonymization issue. --MM
+       \bf\@author
+  \else 
+    % Avoiding common accidental de-anonymization issue. --MM
         \bf Soumission anonyme
-	\fi
+  \fi
     \end{tabular}}
 
 % Mostly taken from deproc.
@@ -155,7 +155,7 @@
 \def\@maketitle{\vbox to \titlebox{\hsize\textwidth
  \linewidth\hsize \vskip 0.125in minus 0.125in \centering
  {\Large\bf \@title \par} \vskip 0.2in plus 1fil minus 0.1in
- {\def\and{\unskip\enspace{\rm and}\enspace}%
+ {\def\and{\unskip\enspace{\rm et}\enspace}%
   \def\And{\end{tabular}\hss \egroup \hskip 1in plus 2fil 
            \hbox to 0pt\bgroup\hss \begin{tabular}[t]{c}\bf}%
   \def\AND{\end{tabular}\hss\egroup \hfil\hfil\egroup
@@ -164,7 +164,7 @@
              \hbox to 0pt\bgroup\hss \begin{tabular}[t]{c}\bf}
   \hbox to \linewidth\bgroup\large \hfil\hfil
     \hbox to 0pt\bgroup\hss 
-	\outauthor
+  \outauthor
    \hss\egroup
     \hfil\hfil\egroup}
   \vskip 0.3in plus 2fil minus 0.1in
@@ -173,14 +173,14 @@
 
 % margins and font size for abstract
 \renewenvironment{abstract}%
-		 {\centerline{\large\bf Résumé}%
-		  \begin{list}{}%
-		     {\setlength{\rightmargin}{0.6cm}%
-		      \setlength{\leftmargin}{0.6cm}}%
-		   \item[]\ignorespaces%
-		   \@setsize\normalsize{12pt}\xpt\@xpt
-		   }%
-		 {\unskip\end{list}}
+     {\centerline{\large\bf Résumé}%
+      \begin{list}{}%
+         {\setlength{\rightmargin}{0.6cm}%
+          \setlength{\leftmargin}{0.6cm}}%
+       \item[]\ignorespaces%
+       \@setsize\normalsize{12pt}\xpt\@xpt
+       }%
+     {\unskip\end{list}}
   
 %\renewenvironment{abstract}{\centerline{\large\bf  
 % Abstract}\vspace{0.5ex}\begin{quote}}{\par\end{quote}\vskip 1ex}
@@ -195,9 +195,9 @@
 % for citation commands in the .tex, authors can use:
 % \citep, \citet, and \citeyearpar for compatibility with natbib, or
 % \cite, \newcite, and \shortcite for compatibility with older ACL .sty files
-\renewcommand\cite{\citep}	% to get "(Author Year)" with natbib    
+\renewcommand\cite{\citep}  % to get "(Author Year)" with natbib    
 \newcommand\shortcite{\citeyearpar}% to get "(Year)" with natbib    
-\newcommand\newcite{\citet}	% to get "Author (Year)" with natbib
+\newcommand\newcite{\citet} % to get "Author (Year)" with natbib
 
 \bibliographystyle{acl_natbib}
 
@@ -211,7 +211,7 @@
 \ifx\@currsize\normalsize\@normalsize\else\@currsize\fi%
 \vskip-\parskip%
 \vskip-\baselineskip%
-\section*{References\@mkboth
+\section*{Bibliographie\@mkboth
  {References}{References}}\list
  {}{\setlength{\labelwidth}{0pt}\setlength{\leftmargin}{\parindent}
  \setlength{\itemindent}{-\parindent}}

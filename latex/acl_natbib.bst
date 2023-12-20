@@ -20,8 +20,8 @@
 % by making the following three changes:
 % - for @incollection, page numbers now follow volume title.
 % - for @inproceedings, address now follows conference name.
-%	(address is intended as location of conference,
-%	 not address of publisher.)
+% (address is intended as location of conference,
+%  not address of publisher.)
 % - for papers with three authors, use et al. in citation
 % Dan Gildea 2017/06/08
 %
@@ -507,22 +507,22 @@ FUNCTION {space.word}
  % Each function has a name bbl.xxx where xxx is the English word.
  % The language selected here is ENGLISH
 FUNCTION {bbl.and}
-{ "and"}
+{ "et"}
 
 FUNCTION {bbl.etal}
 { "et~al." }
 
 FUNCTION {bbl.editors}
-{ "editors" }
+{ "éditeurs" }
 
 FUNCTION {bbl.editor}
-{ "editor" }
+{ "éditeur" }
 
 FUNCTION {bbl.edby}
-{ "edited by" }
+{ "édité par" }
 
 FUNCTION {bbl.edition}
-{ "edition" }
+{ "édition" }
 
 FUNCTION {bbl.volume}
 { "volume" }
@@ -531,7 +531,7 @@ FUNCTION {bbl.of}
 { "of" }
 
 FUNCTION {bbl.number}
-{ "number" }
+{ "numéro" }
 
 FUNCTION {bbl.nr}
 { "no." }
@@ -546,40 +546,40 @@ FUNCTION {bbl.page}
 { "page" }
 
 FUNCTION {bbl.chapter}
-{ "chapter" }
+{ "chapitre" }
 
 FUNCTION {bbl.techrep}
-{ "Technical Report" }
+{ "Rapport technique" }
 
 FUNCTION {bbl.mthesis}
-{ "Master's thesis" }
+{ "Mémoire de master" }
 
 FUNCTION {bbl.phdthesis}
-{ "Ph.D. thesis" }
+{ "Thèse de doctorat" }
 
-MACRO {jan} {"January"}
+MACRO {jan} {"Janvier"}
 
-MACRO {feb} {"February"}
+MACRO {feb} {"Février"}
 
-MACRO {mar} {"March"}
+MACRO {mar} {"Mars"}
 
-MACRO {apr} {"April"}
+MACRO {apr} {"Avril"}
 
-MACRO {may} {"May"}
+MACRO {may} {"Mai"}
 
-MACRO {jun} {"June"}
+MACRO {jun} {"Juin"}
 
-MACRO {jul} {"July"}
+MACRO {jul} {"Juillet"}
 
-MACRO {aug} {"August"}
+MACRO {aug} {"Août"}
 
-MACRO {sep} {"September"}
+MACRO {sep} {"Septembre"}
 
-MACRO {oct} {"October"}
+MACRO {oct} {"Octobre"}
 
-MACRO {nov} {"November"}
+MACRO {nov} {"Novembre"}
 
-MACRO {dec} {"December"}
+MACRO {dec} {"Décembre"}
 
 MACRO {acmcs} {"ACM Computing Surveys"}
 
@@ -672,8 +672,8 @@ FUNCTION {format.names}
     { s nameptr
       duplicate$ #1 >
         { "{ff~}{vv~}{ll}{, jj}" }
-        { "{ff~}{vv~}{ll}{, jj}" }	% first name first for first author 
-%        { "{vv~}{ll}{, ff}{, jj}" }	% last name first for first author
+        { "{ff~}{vv~}{ll}{, jj}" }  % first name first for first author 
+%        { "{vv~}{ll}{, ff}{, jj}" }  % last name first for first author
       if$
       format.name$
       bibinfo bibinfo.check
